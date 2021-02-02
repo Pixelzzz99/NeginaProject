@@ -9,3 +9,7 @@ void MethodAlgorithm::setCountOfBoxes_S(int count_s) { _countOfBoxes_S = count_s
 
 int MethodAlgorithm::getSizeOfBoxes_V() const { return _sizeOfBoxes_V; };
 void MethodAlgorithm::setSizeOfBoxes_V(int size_v) { _sizeOfBoxes_V = size_v; };
+
+int MethodAlgorithm::getCountUsedBoxes() const { return id; };
+
+void MethodAlgorithm::setCountUsedBoxes(int id) { this->id = id; };

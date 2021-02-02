@@ -15,6 +15,8 @@ public:
     int getCountOfItems_N();
     int getCountOfBoxes_S();
     int getSizeOfBoxes_V();
+    int getCountUsedBoxes();
 
     int DoSolve(std::vector<int> &) const;
 };
+

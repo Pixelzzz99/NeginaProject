@@ -36,3 +36,7 @@ int BackPackMain::DoSolve(std::vector<int> &roster) const
     return this->_method->DoAlgorithm(roster);
 }
 
+int BackPackMain::getCountUsedBoxes()
+{
+    return this->_method->getCountUsedBoxes();
+}

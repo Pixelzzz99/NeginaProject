@@ -48,6 +48,9 @@ int OptimizedVersion::DoAlgorithm(std::vector<int> &roster)
         }
         countBoxes--;
     }
+    
+    setCountUsedBoxes(id);
+
     int allGoodPut = 0;
     for (int element : answer)
     {

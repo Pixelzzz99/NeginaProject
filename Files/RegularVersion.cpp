@@ -62,7 +62,7 @@ int RegularVersion::DoAlgorithm(std::vector<int> &roster)
             allGoodPut++;
         
     }
-
+    setCountUsedBoxes(id);
     return allGoodPut;
 }
 
